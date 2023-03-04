@@ -16,5 +16,6 @@ Retorfit2 library is used for connection to the server. HttpLogging is done only
 
 ## Future Work
 1. Handle continuous calls from server using Observable, Flowable etc.
-2. Write Junit test cases.
-3. Save items in Room database so that they care persistent.
+2. Pagination by making continous calls to server.
+3. Write Junit test cases.
+4. Save items in Room database so that they care persistent.
