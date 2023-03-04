@@ -19,4 +19,4 @@ All the dependecies are present in build.gradle.
 1. Handle continuous calls from server using Observable, Flowable etc.
 2. Pagination by making continous calls to server.
 3. Write Junit test cases.
-4. Save items in Room database so that they care persistent.
+4. Save items in Room database so that they can be persistent.
