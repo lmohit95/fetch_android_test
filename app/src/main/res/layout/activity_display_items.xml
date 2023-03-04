@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/activity_start_margin"
+    android:layout_marginTop="@dimen/activity_top_margin"
+    android:layout_marginEnd="@dimen/activity_end_margin"
+    android:orientation="vertical"
+    tools:context=".ui.DisplayItemsActivity">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_title_bottom_margin"
+        android:gravity="center"
+        android:text="@string/items_list" />
+
+    <TextView
+        android:id="@+id/loading"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/item_title_bottom_margin"
+        android:gravity="center"
+        android:text="@string/loading" />
+
+    <LinearLayout
+        android:id="@+id/itemsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/itemId"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/item_id" />
+
+        <TextView
+            android:id="@+id/itemListId"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_start_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/item_list_id" />
+
+        <TextView
+            android:id="@+id/itemName"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_start_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/item_name" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_top_margin"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_top_margin">40dp</dimen>
+    <dimen name="activity_start_margin">40dp</dimen>
+    <dimen name="activity_end_margin">40dp</dimen>
+    <dimen name="item_top_margin">20dp</dimen>
+    <dimen name="item_start_margin">20dp</dimen>
+    <dimen name="item_title_bottom_margin">20dp</dimen>
+
+</resources>

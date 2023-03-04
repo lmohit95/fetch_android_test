@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FetchApplication</string>
+    <string name="items_list">Items List</string>
+    <string name="item_id">Id</string>
+    <string name="item_list_id">List Id</string>
+    <string name="item_name">Name</string>
+    <string name="loading">Loading...</string>
+</resources>
