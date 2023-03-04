@@ -1,10 +1,10 @@
 # fetch_android_test
 
 ## Libraries Used
-RxJava
-Dagger2
-Retrofit2
-All the dependecies are present in build.gradle.
+RxJava  
+Dagger2 
+Retrofit2 
+All the dependecies are present in build.gradle.  
 
 ## Description
 I have used MVVM architecture to implement the application. ```DisplayItemsActivity``` handles the ui part of the application. ```DisplayItemsViewModel``` handles the data transformations and ```DisplayItemsRepository``` handles server calls.
