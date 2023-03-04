@@ -2,8 +2,8 @@
 
 ## Libraries Used
 RxJava  
-Dagger2 
-Retrofit2 
+Dagger2  
+Retrofit2  
 All the dependecies are present in build.gradle.  
 
 ## Description
